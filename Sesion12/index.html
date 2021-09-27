@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuesta Cinematográfica</title>
-    <link rel="icon" href="img/favicon.ico">
 </head>
 <body>
     <div id="Contenedor">
-        <h2 style="color: blue;">Encuesta de cine: Nominadas al Oscar 2020</h2>
+        <h2 style="color: blue; text-align:center">
+            <img src="img/oscar.jpeg" alt="El Oscar" style="height: 70px;">
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ENCUESTA DE CINE: NOMINADAS AL OSCAR 2020 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <img src="img/oscar.jpeg" alt="El Oscar" style="height: 70px;">
+        </h2>
+
         <form id="formulario1" name="formulario1" method="post" action="data.php">
             <fieldset id="datos_personales">
                 <legend>Datos Personales</legend>
@@ -32,6 +36,7 @@
                     <option value="femenino">Femenino</option>
                 </select>
             </fieldset>
+            <br>
 
             <fieldset id="mejor_película">
                 <legend>Mejor Película</legend>
@@ -39,13 +44,24 @@
                 <input type="radio" name="pelicula" value="22"> El irlandés<br>
                 <input type="radio" name="pelicula" value="33"> Parásitos<br>
             </fieldset>
+            <br>
+
+            <fieldset id="selecciona_películas">
+                <legend>Selecciona las películas que no hayas visto</legend>
+                <input type="checkbox" name="pelicula" value="11"> Le Mans '66<br>
+                <input type="checkbox" name="pelicula" value="22"> El irlandés<br>
+                <input type="checkbox" name="pelicula" value="33"> Parásitos<br>
+                <input type="checkbox" name="pelicula" value="44"> Joker<br>
+                <input type="checkbox" name="pelicula" value="55"> Jojo Rabbit<br>
+            </fieldset>
+            <br>
 
             <fieldset>
                 <legend>Argumento de tu película preferida</legend>
                 <textarea id="argumento" name="argumento" rows="14" cols="50"></textarea>
             </fieldset>
             <br>
-            <input type="reset" value="Borrar Formulario"> <input type="submit" value="Enviar">
+            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input type="reset" value="Borrar Formulario"> &nbsp &nbsp &nbsp &nbsp &nbsp <input type="submit" value="Enviar">
         </form>
     </div>
 </body>
