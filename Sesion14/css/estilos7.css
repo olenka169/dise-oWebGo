@@ -1,0 +1,10 @@
+/* Comentario
+*/
+
+.externo{
+    font-family: verdana;
+}
+
+a[class="externo"] {
+    color: green;
+}
