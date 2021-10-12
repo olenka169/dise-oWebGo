@@ -8,14 +8,14 @@
 </head>
 <body>
     <div id="Contenedor">
-        <h2 style="color: blue; text-align:center">
-            <img src="img/oscar.jpeg" alt="El Oscar" style="height: 70px;">
+        <h1 style="color: blue; text-align:center">
+            <img src="img/oscar.jpeg" alt="El Oscar" style="height: 80px;">
             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ENCUESTA DE CINE: NOMINADAS AL OSCAR 2020 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-            <img src="img/oscar.jpeg" alt="El Oscar" style="height: 70px;">
-        </h2>
+            <img src="img/oscar.jpeg" alt="El Oscar" style="height: 80px;">
+        </h1>
 
         <form id="formulario1" name="formulario1" method="post" action="data.php">
-            <fieldset id="datos_personales">
+            <fieldset id="datos_personales" style="background-color: lavender;">
                 <legend>Datos Personales</legend>
                 <label for="nombre">Nombre</label><br>
                 <input type="text" name="nombre" id="nombre"><br><br>
@@ -38,7 +38,7 @@
             </fieldset>
             <br>
 
-            <fieldset id="mejor_película">
+            <fieldset id="mejor_película" style="background-color: lavender;">
                 <legend>Mejor Película</legend>
                 <input type="radio" name="pelicula" value="11"> Le Mans '66<br>
                 <input type="radio" name="pelicula" value="22"> El irlandés<br>
@@ -46,7 +46,7 @@
             </fieldset>
             <br>
 
-            <fieldset id="selecciona_películas">
+            <fieldset id="selecciona_películas" style="background-color: lavender;">
                 <legend>Selecciona las películas que no hayas visto</legend>
                 <input type="checkbox" name="pelicula" value="11"> Le Mans '66<br>
                 <input type="checkbox" name="pelicula" value="22"> El irlandés<br>
@@ -56,7 +56,7 @@
             </fieldset>
             <br>
 
-            <fieldset>
+            <fieldset style="background-color: lavender;">
                 <legend>Argumento de tu película preferida</legend>
                 <textarea id="argumento" name="argumento" rows="14" cols="50"></textarea>
             </fieldset>

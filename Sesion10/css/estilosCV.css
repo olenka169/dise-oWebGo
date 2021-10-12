@@ -1,0 +1,23 @@
+h1{
+    background-color: darkslateblue;
+    color: white;
+    text-align: center;
+    border: 1px solid;
+}
+img{
+    height: 150px;
+    float: right;
+}
+h2{
+    background-color: mediumslateblue;
+    color: white;
+}
+li>strong, h3{
+    color: darkslateblue;
+}
+p{
+    text-align: justify;
+}
+.ind{
+    font-size: smaller;
+}
