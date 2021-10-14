@@ -1,49 +1,63 @@
-#caja1{
+main{
     height: 1000px;
+    margin: auto;
 }
-
-#caja2{
+header{
     background-color: red;
     color: white;
     text-align: center;
-    font-size: 280%;
+    font-size: 140%;
 }
-
-#caja3{
-    background-color: gray;
+header>h1>img{
+    height: 50px;
+}
+nav{
+    background-color: rgb(144, 148, 151);
     color: white;
-    font-size: 80%;
+    font-size: 72%;
     font-family: Arial;
+    width: 100%;
+    float: left;
+    font-weight: bold;
 }
-
-#caja4{
+article{
+    width: 100%;
+    float: left;
+}
+#parte1{
     color: red;
     font-size: 90%;
     font-family: Arial;
 }
-
-#caja5{
-    font-size: 150%;
+#parte2{
+    font-size: 170%;
     font-weight: bold;
     font-family: Arial;
 }
-
-#caja6{
+#parte3{
     width: 380px;
     height: 200px;
     float: right;
 }
-
-#caja7{
+#parte4{
     text-align: justify;
     font-family: Arial;
-    color: dimgrey;
+    color: rgb(98, 101, 103);
 }
-
-#caja8{
+#parte5{
+    text-align: justify;
+    font-family: Arial;
+    color: rgb(66, 73, 73);
+}
+footer{
     background-color: red;
     color: white;
     width: 180px;
     float: right;
     font-family: Arial;
 }
+h1{
+    margin: 0px;
+    padding: 10px;
+}
+
