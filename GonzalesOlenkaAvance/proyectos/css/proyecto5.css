@@ -1,0 +1,63 @@
+main{
+    height: 1000px;
+    margin: auto;
+}
+header{
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 140%;
+}
+header>h1>img{
+    height: 50px;
+}
+nav{
+    background-color: rgb(144, 148, 151);
+    color: white;
+    font-size: 72%;
+    font-family: Arial;
+    width: 100%;
+    float: left;
+    font-weight: bold;
+}
+article{
+    width: 100%;
+    float: left;
+}
+#parte1{
+    color: red;
+    font-size: 90%;
+    font-family: Arial;
+}
+#parte2{
+    font-size: 170%;
+    font-weight: bold;
+    font-family: Arial;
+}
+#parte3{
+    width: 380px;
+    height: 200px;
+    float: right;
+}
+#parte4{
+    text-align: justify;
+    font-family: Arial;
+    color: rgb(98, 101, 103);
+}
+#parte5{
+    text-align: justify;
+    font-family: Arial;
+    color: rgb(66, 73, 73);
+}
+footer{
+    background-color: red;
+    color: white;
+    width: 180px;
+    float: right;
+    font-family: Arial;
+}
+h1{
+    margin: 0px;
+    padding: 10px;
+}
+

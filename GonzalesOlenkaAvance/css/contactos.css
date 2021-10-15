@@ -4,7 +4,7 @@
     min-height: 100vh;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 200px 50px 1fr 1700px 500px;
+    grid-template-rows: 200px 50px 1fr 600px 500px;
     grid-template-areas: "my-header" "my-aside" "my-nav" "my-section" "my-footer";
 }
 
@@ -62,26 +62,49 @@ table>tbody>tr>th>a{
     color: #21202f;
     text-decoration:none;
 }
-.titulo{
+section>p{
     text-align: center;
     font-weight: bold;
     font-size: x-large;
     color: #7c1a5b;
     font-family: Calibri;
 }
-.subtitulo{
+#caja1 {
+    float:right;
+    font-family: Calibri;
+    margin-right: 50px;
+}
+#caja2{
+    text-align: center;
     font-weight: bold;
+    font-size: large;
+    color: #7c1a5b;
+}
+section>form>fieldset{
+    background-color: #efe9e4;
+    margin: 20px;
+    width: 600px;
+}
+section>form>fieldset>label{
     color: #7c1a5b;
     font-family: Calibri;
-    font-size: large;
+    font-weight: bold;
 }
-section>p{
-    text-align: justify;
+.textoC{
+    width: 300px;
+    margin-left: 80px;
+}
+.boton2{
+    text-decoration:none;
+    color: black;
+    float: right;
+    margin-right: 65px;
     font-family: Calibri;
 }
-section>img{
-    height: 175px;
-    float: left;
+section>form>fieldset>textarea{
+    width: 300px;
+    height: 100px;
+    margin-left: 80px;
 }
 aside>a{
     font-family: Calibri;

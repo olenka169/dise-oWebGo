@@ -4,26 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="img/favicon.jpg">
+    <link rel="stylesheet" href="css/sesion.css">
+    <title>Iniciar Sesión</title>
 </head>
 <body>
-    <div id="NuevoUsuario">
-        <form id="formulario1" name="formulario1" method="post" action="data.php">
-            <fieldset style="width: 500px; background-color: papayawhip;" id="usuario">
-                <h1 style="text-align:center">Nuevo Usuario</h1>
-                <p style="text-align:center">
-                    Registro con &nbsp
-                    <img src="img/facebook.png" alt="Facebook" style="height: 30px;"> &nbsp
-                    <img src="img/google.png" alt="Google" style="height: 30px;">
-                </p>
-                <!-- <p style="text-align:center"> <input type="reset" value="Registro con Facebook"> <input type="submit" value="Registro con Google"></p> -->
-                <p style="text-align:center">o registrarse con</p>
-                <p style="text-align:center"> <input style="color: gray;" type="text" name="nombres" id="nombres" value="Nombres"> &nbsp &nbsp &nbsp &nbsp <input style="color: gray;" type="text" name="apellidos" id="apellidos" value="Apellidos"></p>
-                <p style="text-align:center"> <input style="color: gray;" type="text" name="email" id="email" value="micorreo@dominio" size="50" maxlength="50"></p>
-                <p style="text-align:center"> <input style="color: gray;" type="text" name="contrasena" id="contrasena" value="su contraseña" size="50" maxlength="50"> <br> <input type="checkbox" name="condiciones" value="11"> Al crear esta cuenta, aceptas nuestros <b>términos & condiciones</b></p>
-                <p style="text-align:center"> <input type="reset" value="Enviar"></p> <br>
-            </fieldset>
-        </form>
-    </div>
+    <main class="grid">
+        <header>
+            <p></p>
+            <img src="img/FOTO.jpg" alt="Olenka Gonzales Vasquez">
+            <p></p>
+            <a id="iniciar" href="sesion.html">Iniciar Sesión</a>
+            <br>
+            <h1>&nbsp Olenka Alisson Gonzales Vásquez</h1>
+            <h3>&nbsp &nbsp Mi web personal</h3>
+        </header>
+        <nav>
+            <h2 class="menu">Menu</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <th><a href="index.html">Inicio</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="curriculum.html">Curriculum</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="proyecto.html">Proyectos</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="contactos.html">Contacto</a></th>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 class="menu">Enlaces</h2>
+            <table>
+                <tbody>
+                    <tr>
+                        <th><a href="">Enlaces 01</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="">Enlaces 02</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="">Enlaces 03</a></th>
+                    </tr>
+                    <tr>
+                        <th><a href="">Enlaces 04</a></th>
+                    </tr>
+                </tbody>
+            </table>
+        </nav>
+        <section>
+            <div class="iniciarSesion">
+                <form id="formulario1" name="formulario1" method="post" action="data.php">
+                    <fieldset id="usuario">
+                        <h1>Iniciar Sesión</h1>
+                        <p>Correo electrónico:</p>
+                        <p> <input type="text" name="email" id="email" size="50" maxlength="50"></p>
+                        <p>Contraseña:</p>
+                        <p> <input type="text" name="contrasena" id="contrasena" size="50" maxlength="50"> 
+                        <br><br> <input type="checkbox" name="condicion" value="11"> Recuérdame</p>
+                        <button><a href='index.html'>Iniciar Sesión</a></button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <aside>
+            <br>
+            &nbsp <a href="index.html">INICIO</a>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <a href="curriculum.html">CURRICULUM</a>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <a href="proyecto.html">PROYECTOS</a>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+            <a href="contactos.html">CONTACTO</a>
+        </aside>
+        <footer>
+            <p></p>
+            <img src="img/FOTO.jpg" alt="Olenka Gonzales Vasquez">
+            <p></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Información de contacto &nbsp</th>
+                        <th>Síguenos en</th>
+                        <th>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Enlaces de interés</th>
+                        <th>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Menú</th>
+                    </tr>
+                </thead>
+        
+                <tbody>
+                    <tr>
+                        <td class="info">
+                            <li><strong>Teléfono fijo:</strong> 074-416493</li>
+                            <li><strong>Teléfono celular:</strong> 950034367</li>
+                            <li><strong>Email:</strong> olenkagonzalesvasquez@gmail.com &nbsp &nbsp &nbsp</li>
+                        </td>
+                        <td class="info">
+                            <li><strong>Facebook:</strong> <a href="https://www.facebook.com/lolazaquez/" target="blank">Olenka Gonzales Vásquez</a> </li>
+                            <li><strong>Instagram:</strong> <a href="https://www.instagram.com/lolazaquez_/" target="blank">Olenka Gonzales Vásquez</a> </li>
+                        </td>
+                        <td class="enla"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp <a href="http://www.usat.edu.pe" target="blank">USAT</a></td>
+                        <td class="mapa"> 
+                            <li>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="index.html">Inicio</a></li>
+                            <li>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="curriculum.html">Curriculum</a></li>
+                            <li>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="proyecto.html">Proyectos</a></li>
+                            <li>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <a href="contactos.html">Contacto</a></li>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </footer>
+    </main>
 </body>
 </html>
