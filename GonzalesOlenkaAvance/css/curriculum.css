@@ -4,7 +4,7 @@
     min-height: 100vh;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 200px 50px 1fr 1700px 500px;
+    grid-template-rows: 200px 50px 1fr 1500px 500px;
     grid-template-areas: "my-header" "my-aside" "my-nav" "my-section" "my-footer";
 }
 
@@ -62,26 +62,43 @@ table>tbody>tr>th>a{
     color: #21202f;
     text-decoration:none;
 }
-.titulo{
+#curric{
+    color: red;
     text-align: center;
-    font-weight: bold;
+    border: 1px solid #000000;
     font-size: x-large;
-    color: #7c1a5b;
     font-family: Calibri;
 }
-.subtitulo{
-    font-weight: bold;
-    color: #7c1a5b;
+#nombreTitulo{
+    color: rgb(231,70,235);
     font-family: Calibri;
-    font-size: large;
 }
-section>p{
+section>a{
+    color: blue;
+    font-family: Calibri;
+}
+section>ul>li{
+    font-family: Calibri;
+}
+section>h2{
+    font-family: Calibri;
+}
+p{
     text-align: justify;
     font-family: Calibri;
 }
-section>img{
-    height: 175px;
-    float: left;
+section>table{
+    float: center;
+}
+section>table>thead>tr>th{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    font-family: Calibri;
+}
+section>table>tbody>tr>td{
+    text-align: center;
+    font-family: Calibri;
 }
 aside>a{
     font-family: Calibri;

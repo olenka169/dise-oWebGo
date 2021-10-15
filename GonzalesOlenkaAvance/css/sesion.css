@@ -4,7 +4,7 @@
     min-height: 100vh;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 200px 50px 1fr 1700px 500px;
+    grid-template-rows: 200px 50px 1fr 430px 500px;
     grid-template-areas: "my-header" "my-aside" "my-nav" "my-section" "my-footer";
 }
 
@@ -19,7 +19,6 @@ nav {
 section {
     grid-area: my-section;
     background-color: #ffffff;
-    margin: 20px;
 }
 aside {
     grid-area: my-aside;
@@ -62,26 +61,32 @@ table>tbody>tr>th>a{
     color: #21202f;
     text-decoration:none;
 }
-.titulo{
+section>div>form>fieldset{
     text-align: center;
-    font-weight: bold;
-    font-size: x-large;
-    color: #7c1a5b;
+    background-color: #efe9e4;
+    width: 300px;
+}
+.iniciarSesion{
+    width:150px;
+    margin:50px 400px;
+    padding:20px;
+}
+section>div>form>fieldset>h1{
+    color: black;
     font-family: Calibri;
 }
-.subtitulo{
-    font-weight: bold;
-    color: #7c1a5b;
-    font-family: Calibri;
-    font-size: large;
-}
-section>p{
-    text-align: justify;
+section>div>form>fieldset>p{
+    text-align: left;
+    color: black;
     font-family: Calibri;
 }
-section>img{
-    height: 175px;
-    float: left;
+#email, #contrasena{
+    color: gray;
+    font-family: Calibri;
+}
+section>div>form>fieldset>button>a{
+    text-decoration:none;
+    color: black;
 }
 aside>a{
     font-family: Calibri;
@@ -121,7 +126,6 @@ table>tbody>tr>td>li>a{
     text-decoration:none;
     font-family: Calibri;
 }
-
 
 @media (min-width: 600px) and (max-width: 1000px){
     .grid{
