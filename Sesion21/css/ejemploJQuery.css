@@ -1,0 +1,28 @@
+header>h1{
+    background-color: blue;
+    color: white;
+    font-family: Calibri;
+}
+#contenido{
+    margin: auto;
+    background-color: floralwhite;
+    padding-left: 10px;
+    font-family: Calibri;
+}
+.parrafo{
+    color: red;
+}
+div>a{
+    color: green;
+}
+#formulario{
+    margin: auto;
+    padding-left: 10px;
+    font-family: Calibri;
+}
+label{
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+}
