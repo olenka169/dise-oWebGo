@@ -1,0 +1,96 @@
+html, body{
+    height: 100%;
+}
+nav,.empresa,footer, h2{
+    font-family: Helvetica;
+}
+#cover{
+    width: 100%;
+}
+header>img{
+    height: 200px;
+    margin:10px 20px;
+    float: left;
+}
+.mapa{
+    height: 150px;
+    float: right;
+}
+.izq{
+    float: right;
+    height: 38px;
+}
+.producto{
+    height: 200px;
+}
+#parte1{
+    height: 50%;
+}
+#parte2{
+    height: 50%;
+}
+.item-Producto, .card-title {
+    color: #007bff;
+    font-size: large;
+}
+.item-precio, #pre{
+    font-size: large;
+    color: #222;
+    text-align: center;
+}
+.col-6{
+    text-align: right;
+}
+.modal-title{
+    color: white;
+}
+#car{
+    height: 100px;
+    text-align: center;
+}
+#mens, .card-text{
+    text-align: justify;
+    font-family: Helvetica;
+}
+.card-header{
+    color: white;
+    text-align: left;
+    font-family: Helvetica;
+}
+.shopping-cart-total{
+    color: #222;
+    font-weight: bold;
+}
+#enviarCompra, #nuevaCompra{
+    background-color: #007bff;
+    float: left;
+}
+#logo2{
+    height: 460px;
+    margin: auto;
+}
+.card-img-top{
+    width: 150px;
+    margin: auto;
+}
+#veter{
+    width: 200px;
+    margin: auto;
+}
+.card-title{
+    text-align: center;
+}
+#b1, #b2, #b3{
+    margin: 0px 65px;
+}
+#aviso{
+    font-family: Helvetica;
+    float: right;
+    background-color: #222;
+    color: white;
+    width: 735px;
+    text-align: right;
+}
+#btn{
+    float: right;
+}

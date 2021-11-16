@@ -1,0 +1,278 @@
+html, body{
+    background-color: #343a40;
+}
+header>img{
+    height: 140px;
+    margin: 20px 50px;
+    float: left;
+}
+.d-flex{
+    width: 550px;
+}
+.form-control, .btn, nav {
+    font-family: sans-serif;
+}
+.btn{
+    color: white;
+}
+.arriba, .linkfoo{
+    color: white;
+    text-decoration: none;
+}
+.nav-link{
+    border-radius: 10px;
+    height: 40px;
+    width: 130px;
+    text-align: center;
+}
+.nav-item{
+    border-radius: 2px;
+    background-color: white;
+    text-align: center;
+    height: 40px;
+    width: 145px;
+}
+#siguenos{
+    text-align: right;
+}
+.titu1{
+    color: #007bff;
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.link1{
+    color: #343a40;
+    font-size: large;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.item-Producto, .dropdown-item{
+    color: #343a40;
+    font-family: sans-serif;
+}
+.item-precio, .preventa1{
+    color: #343a40;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.producto{
+    height: 250px;
+}
+#fondo1{
+    background-color: white;
+}
+#ran{
+    text-align: center;
+    margin: auto;
+}
+#random{
+    width: 600px;
+}
+.card-header{
+    background-color: white;
+    border-color: transparent;
+    text-align: center;
+    color: #007bff;
+}
+#card{
+    border-color: #007bff;
+    width: 54rem;
+}
+#facebook, #google{
+    width: 16px;
+    height: 20px;
+}
+#face, #goo{
+    width:7em;
+}
+#centrar1{
+    text-align: center;
+}
+#cuadro{
+    margin: auto;
+    font-family: sans-serif;
+}
+#sin, .ini, .subm, #ses{
+    text-decoration: none;
+}
+#check{
+    height: 20px;
+}
+#nota{
+    float: right;
+    text-decoration: none;
+}
+#linea{
+    color: #007bff;
+    height: 2px;
+}
+#usuari{
+    height: 80px;
+}
+#cuadro2{
+    font-size: x-large;
+    font-family: sans-serif;
+}
+.ico{
+    height: 20px;
+}
+.ico2{
+    float: right;
+    height: 25px;
+}
+.subt{
+    color: #007bff;
+}
+.tex{
+    font-weight: bold;
+}
+#cuadro5{
+    font-size: x-large;
+    font-family: sans-serif;
+    color: white;
+}
+.caja1{
+    font-family: sans-serif;
+}
+.caja2{
+    float: right;
+    font-family: sans-serif;
+    text-align: right;
+}
+.caja3{
+    float: left;
+    text-align: center;
+    margin: 20px;
+    font-family: sans-serif;
+}
+.caja4{
+    float: left;
+    font-family: sans-serif;
+}
+#prod{
+    height: 200px;
+}
+#cantidad{
+    border-radius: 20px;
+    background-color: #007bff;
+    color: white;
+    font-family: sans-serif;
+}
+#cbo{
+    list-style-type: none;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+.thead, .tbody, #bot{
+    text-align: center;
+}
+#table{
+    width: 900px;
+}
+.dire{
+    width: 15px;
+}
+#contenido1{
+    width: 500px;
+}
+#boton{
+    float: right;
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+    border-radius: 10px;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+#men1, #men2, #men3, #men4{
+    font-family: sans-serif;
+    border-color: #007bff;
+}
+
+.btn-group{
+    float: right;
+}
+.btn-group button {
+    background-color: white;
+    border: 1px solid #007bff;
+    padding: 10px 24px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.btn-group button:not(:last-child) {
+    border-right: none;
+} 
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.btn-group button:hover {
+    background-color: #b0d6ff;
+}
+
+#num{
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#prod6{
+    width: 350px;
+}
+#titu2{
+    font-family: sans-serif;
+    color: #007bff;
+    font-weight: bold;
+}
+#precio{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#parra{
+    text-align: justify;
+}
+#nota2, #nota4{
+    text-decoration: none;
+    font-weight: bold;
+}
+#precio2{
+    text-align: right;
+}
+#nota3{
+    text-align:center;
+}
+#marco1, #marco2{
+    border-color: #007bff;
+}
+#carr{
+    float: right;
+}
+#table2{
+    width: 750px;
+}
+.caja5{
+    text-align: center;
+}
+.linea2{
+    color: #007bff;
+}

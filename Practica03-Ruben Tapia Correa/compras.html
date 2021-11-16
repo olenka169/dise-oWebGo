@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="img/favicon.png">
+    <script src="https://kit.fontawesome.com/33a0d02645.js" crossorigin="anonymous"></script>
+    <title>Salud & Vida</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+                    <li class="av-item">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#myModal" class="nav-link active"
+                            aria-current="page">Compras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proyectos.html">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="cover">
+        <header>
+            <img src="img/logo.png" alt="Salud & Vida">
+            <p></p>
+            <div class="col-6 col-md-2 position-absolute top-1 end-0">
+                <a href="#!" data-bs-toggle="modal" data-bs-target="#myModal">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-cart3" viewBox="0 0 16 16">
+                        <path
+                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                    </svg>
+                </a>
+                &nbsp &nbsp &nbsp
+                <a href="#!">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                        class="bi bi-person" viewBox="0 0 16 16">
+                        <path
+                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                    </svg>
+                </a>
+                &nbsp
+            </div>
+            <div tabindex="-1" aria-labelledby="myModal" aria-hidden="true" class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header bg-primary">
+                            <h5 class="modal-title">Bienvenido al Carrito de Compras</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <th><img id="car" src="img/carrito.png" alt="carrito"></th>
+                                        <th id="mens">A continuacion le ofreceremos los variados
+                                            productos que se tienen en nuestro stock, para
+                                            ello elija la opcion "Ir a la tienda", Muchas Gracias.</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">
+                                <a href="compras.html" target="_blank" href="#" class="btn-primary"
+                                    style="text-decoration:none;">Ir a la
+                                    tienda</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+            <h1 class="text-uppercase">&nbsp Salud & Vida</h1>
+            <br><br><br><br>
+        </header>
+    </section>
+
+    <!-- compras -->
+    <!-- imagenes de productos, precios, descripcion -->
+
+    <div class="col">
+        <div class="container container-productos mt-3">
+            <div class="row">
+                <div class="col-md-8">
+                    <h4 class=" bg-primary text-white card-header ">Productos</h4>
+                    <div class="card-group">
+                        <div class="item card">
+                            <div class="d-flex align-items-center">
+                                <img src="img/pantene.webp" class="item-image card-img-top w-60" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title item-title">Acondicionador</h5>
+                                <p class="card-text item-price" id="pre">S/ 18.00
+                                </p>
+                                <button class="btn bg-primary text-white addToCart " id="btn">+</button>
+                            </div>
+                        </div>
+                        <div class="item card">
+                            <div class="d-flex align-items-center">
+                                <img src="img/alcohol.png" class="item-image card-img-top " alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title item-title">Alcohol</h5>
+                                <p class="card-text item-price" id="pre">S/ 9.50
+                                </p>
+                                <button class="btn bg-primary text-white addToCart" id="btn">+</button>
+                            </div>
+                        </div>
+                        <div class="item card">
+                            <div class="d-flex align-items-center">
+                                <img src="img/shampoo.jpg" class="item-image card-img-top " alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title item-title">Shampoo</h5>
+                                <p class="card-text item-price" id="pre">S/ 20.99
+                                </p>
+                                <button class="btn bg-primary text-white addToCart" id="btn">+</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item card-group">
+                        <div class="card">
+                            <div class="d-flex align-items-center">
+                                <img src="img/cepillo.jpg" class="item-image card-img-top " alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title item-title">Cepillo de Dientes</h5>
+                                <p class="card-text item-price" id="pre">S/ 1.50
+                                </p>
+                                <button class="btn bg-primary text-white addToCart" id="btn">+</button>
+                            </div>
+                        </div>
+                        <div class="item card">
+                            <div class="d-flex align-items-center">
+                                <img src="img/pastadental.jpg" class="item-image card-img-top " alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title item-title">Pasta Dental</h5>
+                                <p class="card-text item-price" id="pre">S/ 3.00
+                                </p>
+                                <button class="btn bg-primary text-white addToCart" id="btn">+</button>
+                            </div>
+                        </div>
+                        <div class="item card">
+                            <div class="d-flex align-items-center">
+                                <img src="img/perfume.jpg" class="item-image card-img-top " alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title item-title">Perfume para Bebes</h5>
+                                <p class="card-text item-price" id="pre">S/ 22.00
+                                </p>
+                                <button class="btn bg-primary text-white addToCart" id="btn">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <form>
+                        <h4 class=" bg-primary text-white card-header ">Datos del Usuario:</h4>
+                        <div class="form-group row mt-3">
+                            <div class="col-sm-4">
+                                <label for="nombre" class="col-sm-2 col-form-label nombres"></label>Nombres y
+                                Apellidos:</label>
+                            </div>
+                            <div class="col-sm-8">
+                                <input type="text" id="nombres" placeholder="nombres y apellidos"
+                                    onkeypress="return soloLetras(event)">
+                            </div>
+                        </div>
+                        <span id="aviso"></span><br>
+                        <div class="form-group row mt-3">
+                            <div class="col-sm-4">
+                                <label for="email" class="col-sm-2 col-form-label email"></label>Email</label>
+                            </div>
+                            <div class="col-sm-8">
+                                <input type="text" id="email" placeholder="email">
+                            </div>
+                        </div>
+                </div>
+                </form>
+                <div class="col-md-4">
+                    <div id="t-2">
+                        <h4 class=" bg-primary text-white card-header ">Carrito de Compras:</h4>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="shopping-cart-header">
+                                <h6>&nbsp &nbsp &nbsp &nbsp Producto</h6>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="shopping-cart-header">
+                                <h6 class="text-truncate">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Precio</h6>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="shopping-cart-header">
+                                <h6>Cantidad</h6>
+                            </div>
+                        </div>
+                        <hr class="col-11" style="margin: auto;">
+                        <div class="shopping-cart-items shoppingCartItemsContainer">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row ">
+                        <div class="col-12" id="t">
+                            <div class="shopping-cart-total d-flex align-items-center" id="t-1">
+                                <p class="mb-0 fw-bold">Total: &nbsp</p>
+                                <p class="ml-4 mb-0 fw-bold shoppingCartTotal espacio" id="espacio">S/0.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row" id="btns">
+                        <div class="col">
+                            <button class="btn bg-primary text-white " id="comprar" type="button" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" onclick="modalProductos()">Enviar
+                                Compra</button>
+                        </div>
+                        <div class="col">
+                            <button class="btn comprarButton  bg-primary text-white " id="comprar" type="button">Nueva
+                                Compra</button>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header bg-primary">
+                                    <h5 class="modal-title" id="exampleModalLabel">Compra Registrada</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div id="Mo"></div>
+                                    <div id="Mod"></div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary"
+                                        data-bs-dismiss="modal">Aceptar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><br>
+
+    <footer class="bg-primary text-white text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5>Contáctanos</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white fas fa-home  "> Calle Elvira Garcia Garcia #1425</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white  fas fa-envelope"> saludvida@hotmail.com</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white fas fa-phone"> 074 516523</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h5>Redes Sociales</h5>
+                    <section class="mb-4">
+                        <!-- Facebook -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/"
+                            role="button"><i class="fab fa-facebook-f"></i></a>
+                        <!-- Twitter -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/" role="button"><i
+                                class="fab fa-twitter"></i></a>
+                        <!-- Instagram -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/"
+                            role="button"><i class="fab fa-instagram"></i></a>
+                        <!-- Youtube -->
+                        <a class="btn btn-outline-light btn-floating m-1" href="https://youtube.com/" role="button"><i
+                                class="fab fa-youtube-square"></i></a>
+                    </section>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <a href="https://www.google.com/maps">
+                        <img class="mapa" src="img/mapa.jpg" alt="direccion"></a>
+                </div>
+                <!--Grid column-->
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/33a0d02645.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/estilos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

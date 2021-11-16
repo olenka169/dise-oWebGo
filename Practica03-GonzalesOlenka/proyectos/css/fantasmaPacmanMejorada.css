@@ -1,0 +1,380 @@
+body{
+    background-color: black;
+}
+
+img{
+    height: 550px;
+}
+
+.p1{
+    background: red;
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.p2{
+    background: blue;
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.p3{
+    background: yellow;
+    color: white;
+    padding: .2rem .3rem 1rem .3rem;
+    position: absolute;
+    border-radius: 2rem 2rem 0 0;
+    animation-name: animar3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+.titu{
+    animation: fluido 30s ease-in-out infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Helvetica;
+  }
+  
+@keyframes fluido {
+    0% { background-position: 0 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0 50% }
+}
+
+@keyframes animar{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    4%{
+        left: 6.5rem;
+        top: 0rem;
+        color: #F08080;
+    }
+    8%{
+        left: 6.5rem;
+        top: 6rem;
+        color: white;
+    }
+    12%{
+        left: 19.5rem;
+        top: 6rem;
+        color: #F08080;
+    }
+    16%{
+        left: 19.5rem;
+        top: 0rem;
+        color: white;
+    }
+    20%{
+        left: 24.5rem;
+        top: 0rem;
+        color: #F08080;
+    }
+    24%{
+        left: 24.5rem;
+        top: 9.5rem;
+        color: white;
+    }
+    28%{
+        left: 19.5rem;
+        top: 9.5rem;
+        color: #F08080;
+    }
+    32%{
+        left: 19.5rem;
+        top: 25.5rem;
+        color: white;
+    }
+    36%{
+        left: 16.5rem;
+        top: 25.5rem;
+        color: #F08080;
+    }
+    40%{
+        left: 16.5rem;
+        top: 29rem;
+        color: white;
+    }
+    44%{
+        left: 14.5rem;
+        top: 29rem;
+        color: #F08080;
+    }
+    48%{
+        left: 14.5rem;
+        top: 32rem;
+        color: white;
+    }
+    52%{
+        left: 11.5rem;
+        top: 32rem;
+        color: #F08080;
+    }
+    56%{
+        left: 11.5rem;
+        top: 29rem;
+        color: white;
+    }
+    60%{
+        left: 9rem;
+        top: 29rem;
+        color: #F08080;
+    }
+    64%{
+        left: 9rem;
+        top: 25.5rem;
+        color: white;
+    }
+    68%{
+        left: 11.5rem;
+        top: 25.5rem;
+        color: #F08080;
+    }
+    72%{
+        left: 11.5rem;
+        top: 22.5rem;
+        color: white;
+    }
+    76%{
+        left: 6.5rem;
+        top: 22.5rem;
+        color: #F08080;
+    }
+    80%{
+        left: 6.5rem;
+        top: 16.5rem;
+        color: white;
+    }
+    84%{
+        left: 9rem;
+        top: 16.5rem;
+        color: #F08080;
+    }
+    88%{
+        left: 9rem;
+        top: 12.5rem;
+        color: white;
+    }
+    92%{
+        left: 13rem;
+        top: 12.5rem;
+        color: #F08080;
+    }
+    96%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+    100%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+}
+
+@keyframes animar2{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    6%{
+        left: 0rem;
+        top: 10rem;
+        color: #B0C4DE;
+    }
+    12%{
+        left: 6.5rem;
+        top: 10rem;
+        color: white;
+    }
+    18%{
+        left: 6.5rem;
+        top: 29rem;
+        color: #B0C4DE;
+    }
+    24%{
+        left: 1rem;
+        top: 29rem;
+        color: white;
+    }
+    30%{
+        left: 1rem;
+        top: 32rem;
+        color: #B0C4DE;
+    }
+    36%{
+        left: 24.5rem;
+        top: 32rem;
+        color: white;
+    }
+    42%{
+        left: 24.5rem;
+        top: 29rem;
+        color: #B0C4DE;
+    }
+    48%{
+        left: 22rem;
+        top: 29rem;
+        color: white;
+    }
+    54%{
+        left: 22rem;
+        top: 25rem;
+        color: #B0C4DE;
+    }
+    60%{
+        left: 24.5rem;
+        top: 25rem;
+        color: white;
+    }
+    66%{
+        left: 24.5rem;
+        top: 22.5rem;
+        color: #B0C4DE;
+    }
+    72%{
+        left: 19.5rem;
+        top: 22.5rem;
+        color: white;
+    }
+    78%{
+        left: 19.5rem;
+        top: 16rem;
+        color: #B0C4DE;
+    }
+    84%{
+        left: 17rem;
+        top: 16rem;
+        color: white;
+    }
+    90%{
+        left: 17rem;
+        top: 12.5rem;
+        color: #B0C4DE;
+    }
+    96%{
+        left: 13rem;
+        top: 12.5rem;
+        color: white;
+    }
+    98%{
+        left: 13rem;
+        top: 15.7rem;
+        color: #B0C4DE;
+    }
+    100%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+}
+
+@keyframes animar3{
+    0%{
+        left: 0;
+        top: 0;
+    }
+    5%{
+        left: 11.5rem;
+        top: 0rem;
+        color: #F0E68C;
+    }
+    10%{
+        left: 11.5rem;
+        top: 6rem;
+        color: white;
+    }
+    15%{
+        left: 17rem;
+        top: 6rem;
+        color: #F0E68C;
+    }
+    20%{
+        left: 17rem;
+        top: 9.5rem;
+        color: white;
+    }
+    25%{
+        left: 14.5rem;
+        top: 9.5rem;
+        color: #F0E68C;
+    }
+    30%{
+        left: 14.5rem;
+        top: 12.5rem;
+        color: white;
+    }
+    35%{
+        left: 13rem;
+        top: 12.5rem;
+        color: #F0E68C;
+    }
+    40%{
+        left: 13rem;
+        top: 15.7rem;
+        color: white;
+    }
+    45%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+    50%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+    55%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+    60%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+    65%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+    70%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+    75%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+    80%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+    85%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+    90%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+    95%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+    100%{
+        left: 13rem;
+        top: 15.7rem;
+    }
+}

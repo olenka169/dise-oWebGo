@@ -1,0 +1,106 @@
+#contenedor{
+    width: 700px;
+    margin: auto;
+    background-color: #efe9e4;
+    padding-left: 10px;
+    font-family: Helvetica;
+}
+span{
+    width: 100px;
+    display: block;
+    float: left;
+    padding-left: 4px;
+}
+.nom{
+    background-color: #c4ada2;
+}
+.titu{
+    background-color: #85545f;
+    color: #ffffff;
+}
+li{
+    list-style: none;
+    margin-top: 1px;
+}
+ul{
+    margin: 0px;
+    padding-left: 0px;
+}
+.tituemail{
+    width: 230px;
+    background-color: #85545f;
+    color: #ffffff;
+}
+.nomemail{
+    width: 230px;
+    background-color: #c4ada2;
+}
+#aviso{
+    background-color: #9c726e;
+    color: #ffffff;
+    width: 409px;
+    text-align: right;
+}
+#aviso2{
+    background-color: #9c726e;
+    color: #ffffff;
+    width: 409px;
+    text-align: right;
+}
+header, form>span, button{
+    color: #7c1a5b;
+}
+.dato, .titu, .tituemail, .titudirec, button{
+    font-weight: bold;
+    font-size: 15px;
+}
+.titudirec{
+    width: 230px;
+    background-color: #85545f;
+    color: #ffffff;
+}
+.nomdirec{
+    width: 230px;
+    background-color: #c4ada2;
+}
+table{
+    width: 700px;
+}
+td{
+    width: 50%;
+}
+.img{
+    text-align: center;
+    width: 40%;
+}
+.info{
+    width: 60%;
+}
+img{
+    height: 150px;
+}
+#fondo{
+    background: #7c1a5b url(../img/fondo.jpg) center no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#caja1{
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+h3{
+    font-weight: bold;
+}
+.redondo{
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 5px double #7c1a5b;
+  }

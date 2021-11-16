@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/agendav3.css">
+    <title>Formulario</title>
+</head>
+
+<body onload="actualizarDatos()">
+    <p>BIENVENIDO A LA AGENDA DE CONTACTOS-USUARIO, MUCHAS GRACIAS.......
+    </p>
+    
+    <div id="contenedor">
+        <header>
+            <h3>Mi Agenda de Contactos</h3>
+            <hr>
+        </header>
+        <form class="form__reg" action="">
+            <span>Nombre: </span>
+            <input type="text" placeholder="nombre" id="nombre" style="border-radius: 50cm;"><br><br>
+            <span>Num Celular: </span>
+            <input type="text" placeholder="movil" id="movil" style="border-radius: 50cm;"><br><br>
+            <span>Email: </span>
+            <input type="email" placeholder="email" id="email" style="border-radius: 50cm;"><br><br>
+        </form>
+        <hr />
+        <div>
+            <button type="button" style="border-radius: 500cm;" onclick="guardarDato()">Guardar</button>
+            <button type="button" style="border-radius: 500cm;" onclick="recuperarDato()">Recuperar</button>
+            <button type="button" style="border-radius: 500cm;" onclick="eliminarDato()">Eliminar</button>
+            <button type="button" style="border-radius: 500cm;" onclick="eliminarTodo()">Eliminar Todos</button>
+        </div>
+        <hr>
+        <span class="titu">Nombre</span> 
+        <span class="titu">Celular</span> 
+        <span class="titu datosEmail">Email</span><br>
+        <ul id="contactos"></ul>
+    </div>
+    <script type="text/javascript" src="js/agenda.v2.js"></script>
+</body>
+</html>
